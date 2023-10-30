@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+.profile-picture {
+  display: block;
+  margin: 2em auto;
+  width: 250px;
+  height: 250px;
+  filter: drop-shadow(1px 5px 10px #377ddea0);
+}
+
+body {
+  background-image: linear-gradient(lightgrey, lightblue);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  min-height: 100vh;
+}
+
+.list-inline{
+  display: inline-block;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  text-align: center;
+  color: darkslategrey;
+  margin-bottom: 2.5rem;
+}
+
+p {
+  margin: auto;
+  text-align: justify;
+  min-width: 500px;
+  width: 50%;
+  line-height: 150%;
+}
+
+.icon-s {
+  width: 30px;
+  padding: 0;
+
+}
+
+.card {
+  margin: 0 auto;
+  border-radius: 0.5em;
+  text-align: justify;
+  background-color: #fff;
+  width: 50%;
+  min-width: 500px;
+  box-shadow:
+    0px 1.7px 2.2px rgba(0, 0, 0, 0.02),
+    0px 4px 5.3px rgba(0, 0, 0, 0.028),
+    0px 7.5px 10px rgba(0, 0, 0, 0.035),
+    0px 13.4px 17.9px rgba(0, 0, 0, 0.042),
+    0px 25.1px 33.4px rgba(0, 0, 0, 0.05),
+    0px 60px 80px rgba(0, 0, 0, 0.07);
+}
+
+ul {
+  margin: auto;
+  text-align: center;
+  padding: 0;
+  width: 50%;
+  min-width: 500px;
+}
+
+.wrapper {
+  position: relative;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  /* cursor: url("https://i.ibb.co/4Mjg2Zv/IMG-0620.png") auto; */
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+.button {
+  background-color: #404663;
+  color: #fff;
+  cursor: url("https://i.ibb.co/4Mjg2Zv/IMG-0620.png") 15 15, pointer;
+  border: 0;
+  font-size: 2rem;
+  font-weight: 400;
+  padding: 0.5em 1.25em;
+  border-radius: 0.5em;
+  z-index: 999;
+  position: relative;
+  display: flex;
+  gap: 0.5em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:
+    0px 1.7px 2.2px rgba(0, 0, 0, 0.02),
+    0px 4px 5.3px rgba(0, 0, 0, 0.028),
+    0px 7.5px 10px rgba(0, 0, 0, 0.035),
+    0px 13.4px 17.9px rgba(0, 0, 0, 0.042),
+    0px 25.1px 33.4px rgba(0, 0, 0, 0.05),
+    0px 60px 80px rgba(0, 0, 0, 0.07);
+}
+
+.button:active {
+  transform: scale(1.01);
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 300px;
+  }
+}
